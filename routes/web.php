@@ -2,8 +2,6 @@
 
 use App\Http\Requests\TaskRequest;
 use App\Models\Task;
-use Illuminate\Http\Response;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
